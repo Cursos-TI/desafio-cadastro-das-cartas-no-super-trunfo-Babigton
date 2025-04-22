@@ -9,11 +9,12 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
-    int codigo_cidade, codigo_cidade_2; //01 / 02
-    char nome_cidade[50], nome_cidade_2[50]; //Juiz de fora //rio de janeiro
-    int populacao, populacao_2;  //565.764 //6.729,894
-    float area_km, area_km_2;  //1.435.749 //1.200,329
-    float PIB, PIB_2;  //35.145,34 //359.630.000,000 bilhoes
+                                                // comentarios de dados reais, para facilitar o preenchimento
+    int codigo_cidade, codigo_cidade_2;         //01 / 02
+    char nome_cidade[50], nome_cidade_2[50];    //Juiz de fora //rio de janeiro
+    int populacao, populacao_2;                 //565.764 //6.729,894
+    float area_km, area_km_2;                   //1.435.749 //1.200,329
+    float PIB, PIB_2;                           //35.145,34 //359.630.000,000 bilhoes
     int pontos_turisticos, pontos_turisticos_2; //29 //58
 
 
@@ -43,8 +44,7 @@ int main() {
     printf ("Por favor insira numero de pontos turistcos: ");
     scanf ("%d", &pontos_turisticos);
 
-    // coletando dados para a segunda carta 
-        // coletando dados para a primeira carta:
+    // coletando dados para a segunda carta:
     printf ("\nOlá, vamos preencher os dados da sua segunda carta! \n");
 
 
